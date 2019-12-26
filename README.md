@@ -12,7 +12,7 @@ Make sure to install libraries in the same manner
 - Tesseract (any version)
 - Tesseract Language Data (big tessdata)
 - ocrmypdf library
-- Flask
+- Flask (used ***cert.pem*** and **key.pem** for hosting the url on **https**)
 
 **You can also use the following URL for installing Tesseract on CentOS 7:**
 https://groups.google.com/forum/#!topic/tesseract-ocr/u-PZaakaKs0
@@ -30,3 +30,6 @@ lept = ffi.dlopen(find_library('**_Insert your location here_**'))
 - Path can be provided through a GET request (or you can change in the code accordingly)
 - An OCR and LOG folder is created in the root path
 - OCR'd PDF's are stored in the OCR folder and PDF's which were not able to OCR along with their exceptions are stored in LOG.
+
+## Licensing
+Feel free to use it in anyway you want. However, please consult before making changes to the repository.
